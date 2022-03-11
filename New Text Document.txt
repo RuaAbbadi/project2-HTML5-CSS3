@@ -1,0 +1,42 @@
+li > a ===> enter => it will create link inside list item 
+a*5 ===> it will create a 5 links
+
+(li>a)*5
+
+
+row class public class I will give it for  parent elements that needs to be beside each other ====> .row{
+                     display:flex;
+                     justify-content:space-between;
+                     align-items:center;
+
+                            }
+
+
+if we have a top above the nav bar we need to chane the position of the navbar from fixed to sticky like this
+.top{
+    background-color:#0061f2;
+    width:100%;
+    height:60px;
+}
+.nav{
+    background-color:white;
+    padding:27px 0;
+    position:sticky;
+    width:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+linear gradient : تدرج الالوان we use it like this
+background:linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));
+or 
+background:linear-gradient(135deg,#0061f2,rgba(105,0,199,.8)),url('link of a picture');
+
+
+when I want to make a rotate for a inline element it will create a problem so I need to convert it to a inline-block and then rotate it
+
+
+
